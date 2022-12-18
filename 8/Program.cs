@@ -11,9 +11,7 @@ for (int i = 0; i < array.GetLength(0); i++)     //генерация и выв�
 
     }
 Console.WriteLine();
-
 }
-
 for (int i = 0; i < array.GetLength(0); i++)
     for (int j = 0; j < array.GetLength(1); j++)
         for (int k = 0; k < array.GetLength(1) - 1; k++)
@@ -26,10 +24,7 @@ for (int i = 0; i < array.GetLength(0); i++)
         }
 
     
-    //(array [0, 1], array[array.GetLength(0)-1, i]) = (array[array.GetLength(0)-1, i], array [0, 1]);
-
 }
-
 Console.WriteLine("\n");
 
 for (int i = 0; i < array.GetLength(0); i++)     // вывод массива
